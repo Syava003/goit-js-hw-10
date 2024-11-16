@@ -16,3 +16,54 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f4f4f4;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 16px;
+}
+
+#datetime-picker {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/* 2 ДЗ*/
+
+
